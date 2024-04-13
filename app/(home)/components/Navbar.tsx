@@ -2,7 +2,8 @@
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin,  } from 'react-icons/fa';
+import {SiX} from "react-icons/si"
 
 export default function Navbar({ className }: { className: string }) {
   const socials = [
@@ -19,7 +20,7 @@ export default function Navbar({ className }: { className: string }) {
     {
       link: 'https://twitter.com/Shubham0139518',
       label: 'Twitter(X)',
-      Icon: FaTwitter,
+      Icon: SiX,
     },
   ];
 
